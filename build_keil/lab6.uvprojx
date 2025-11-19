@@ -49,7 +49,7 @@
             <InvalidFlash>1</InvalidFlash>
           </TargetStatus>
           <OutputDirectory>.\Objects\</OutputDirectory>
-          <OutputName>Test_filtro</OutputName>
+          <OutputName>Test_HWWDT</OutputName>
           <CreateExecutable>1</CreateExecutable>
           <CreateLib>0</CreateLib>
           <CreateHexFile>0</CreateHexFile>
@@ -1174,9 +1174,9 @@
           <GroupName>shared</GroupName>
           <Files>
             <File>
-              <FileName>..\..\..\Users\isidr\OneDrive - unizar.es\docencia\grados\656_30319_SEMP\03_Laboratorio\20_Soluciones\lab6\lab6_2025\shared\lib\30319_shared.lib</FileName>
+              <FileName>30319_shared.lib</FileName>
               <FileType>4</FileType>
-              <FilePath>$TC_ROOT$\..\..\..\Users\isidr\OneDrive - unizar.es\docencia\grados\656_30319_SEMP\03_Laboratorio\20_Soluciones\lab6\lab6_2025\shared\lib\30319_shared.lib</FilePath>
+              <FilePath>..\shared\lib\30319_shared.lib</FilePath>
             </File>
           </Files>
         </Group>
