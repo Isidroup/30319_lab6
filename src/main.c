@@ -1,6 +1,6 @@
 /**
  * @file main.c
- * @date :2025/11/04 12:05:23
+ * @date :2025/11/24 19:25:01
  * @brief Programa principal del laboratorio 5 - Modulación y Demodulación FSK
  *
  * Este programa implementa un sistema completo de comunicación FSK que integra:
@@ -78,8 +78,8 @@ int32_t main(void) {
   SysTick_Init(SystemCoreClock / 1000); // Tick cada 1ms
 
   // llamadas para configurar y arrancar el watchdog
-  //Hwwdt_Init(100*20-1, 0); // periodo de 20ms, con reset
-  //Hwwdt_Start();          // arranca el watchdog
+  //HWWDT_Init( ?? , ?? ); // periodo de 20ms, con reset
+  //HWWDT_Start();         // arranca el watchdog
 
   /**
    * Inicialización del códec de audio WM8731

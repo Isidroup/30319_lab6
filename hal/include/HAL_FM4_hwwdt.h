@@ -1,6 +1,6 @@
 /**
  * @file HAL_FM4_hwwd.h
- * @date :2025/11/02 21:00:52
+ * @date :2025/11/24 19:25:54
  * @brief Interfaz de Hardware Watchdog (HWWDT) para la plataforma FM4
  *
  * Este fichero declara las funciones y constantes necesarias para configurar,
@@ -12,15 +12,15 @@
  * Se documentan a continuación las funciones públicas disponibles en esta API.
  *
  * @section Funciones disponibles
- * - Hwwdt_Init(uint32_t wdogload, uint8_t wdogreset)
+ * - HWWDT_Init(uint32_t wdogload, uint8_t wdogreset)
  *   - Inicializa el HWWDT con el periodo de desbordamiento y opción de reset.
- * - Hwwdt_Start(void)
+ * - HWWDT_Start(void)
  *   - Arranca el HWWDT (empieza la cuenta atrás).
- * - Hwwdt_GetIntStatus(void)
+ * - HWWDT_GetIntStatus(void)
  *   - Devuelve el estado de la interrupción del HWWDT (1 = interrupción generada).
- * - Hwwdt_ReadWdgValue(void)
+ * - HWWDT_ReadWdgValue(void)
  *   - Lee y devuelve el valor actual del contador del HWWDT.
- * - Hwwdt_Feed(uint8_t u8ClearPattern1, uint8_t u8ClearPattern2)
+ * - HWWDT_Feed(uint8_t u8ClearPattern1, uint8_t u8ClearPattern2)
  *   - Realiza la secuencia segura de "alimentado" (unlock -> feed -> lock).
  *
  * @note El HWWDT utiliza como reloj el dominio CLKLC (~100 kHz) representado
