@@ -1,8 +1,16 @@
-/** \file HAL_FM4_hwwdt.c
-* A brief file description.
-* Created on:    2021/11/19
-* Last modified:
-*/
+/**
+ * @file HAL_FM4_hwwdt.c
+ * @brief Capa HAL para el Hardware Watchdog (HWWDT) del MCU FM4.
+ * @date:2025/11/30 21:22:27
+ *
+ * Funciones disponibles:
+ *  - HWWDT_Init(wdogload, wdogreset): Configura registros de carga y modo reset.
+ *  - HWWDT_Start(): Arranca el HWWDT si aún está parado.
+ *  - HWWDT_GetIntStatus(): Consulta el flag de interrupción del HWWDT.
+ *  - HWWDT_ReadWdgValue(): Lee el contador actual.
+ *  - HWWDT_Feed(pattern1, pattern2): Secuencia segura de alimentación (feed).
+ *
+ */
 
 #include <stdint.h>
 #include "s6e2cc.h"
