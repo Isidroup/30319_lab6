@@ -1,6 +1,6 @@
 /**
  * @file isr.c
- * @date :2025/11/04 20:35:26
+ * @date :2025/12/02 08:23:13
  * @brief Rutinas de servicio de interrupción del sistema
  *
  * Este fichero contiene las rutinas de interrupción (ISR) principales del sistema,
@@ -87,8 +87,8 @@ uint8_t g_rx_buf_full;   ///< Estado del buffer RX: 1 = lleno, 0 = no lleno
  * @warning Si esta función se ejecuta, indica que el sistema no ha alimentado
  *          el watchdog a tiempo, señal de un posible bloqueo o mal funcionamiento
  */
-void NMI_Handler(void)
-{
+// void NMI_Handler(void)
+// {
 
     /**
      * @brief    *
@@ -102,7 +102,7 @@ void NMI_Handler(void)
      *        }
      */
 
-}
+// }
 
 
 /**
