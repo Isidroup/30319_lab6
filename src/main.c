@@ -1,6 +1,6 @@
 /**
  * @file main.c
- * @date :2025/11/24 19:25:01
+ * @date :2025/12/09 08:43:43
  * @brief Programa principal del laboratorio 5 - Modulación y Demodulación FSK
  *
  * Este programa implementa un sistema completo de comunicación FSK que integra:
@@ -78,7 +78,7 @@ int32_t main(void) {
   SysTick_Init(SystemCoreClock / 1000); // Tick cada 1ms
 
   // llamadas para configurar y arrancar el watchdog
-  //HWWDT_Init( ?? , ?? ); // periodo de 20ms, con reset
+  //HWWDT_Init( ?? , ?? ); // periodo de 10ms, con reset
   //HWWDT_Start();         // arranca el watchdog
 
   /**
